@@ -50,7 +50,7 @@ Images can be uplodated from the Upload screen. Enter the name of the event, the
 It is not necessary to log in to view or download images. From the login screen, just select the link to view ("Just want to view raw score images? You don't need to sign in. Click Here"). If you are in the Upload screen there is also a link at the bottom to view. You can choose event and class from the dropdown screen. 
 
 **Permalinks**
-If you wish to keep a particular download query (a particular event and/or particular class) you can make those selections from the dropdown menus and click the "Permalink" link. Your browser will be taken to a specific query, which can be copied and used again to choose those specific selections.
+If you wish to keep a particular download query (a particular event and/or particular class) you can make those selections from the dropdown menus, submit the query, and click the "Permalink" link. Your browser will be taken to a specific query, which can be copied and used again to choose those specific selections.
   
 **Probems or issues**
 Should you have any problems, issues, or suggestions for RSVP, you may contact me at andy@sailor.nu. An example of RSVP can be seen at http://www.sailor.nu/scorefiles/
