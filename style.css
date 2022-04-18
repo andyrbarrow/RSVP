@@ -1,0 +1,100 @@
+  
+body { 
+  font: 16px sans-serif;
+  font-size: large;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+.wrapper {
+  width: 500px;
+  padding: 20px;
+  margin-right: 5px;
+}
+
+.form-group {
+  width: 80%;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+input:not(:focus){ 
+  outline: none !important;
+  border-color: black;
+  border-width: 2px;
+}
+
+input:focus { 
+  outline: none !important;
+  border-color: black;
+  border-width: 2px;
+  box-shadow: 0 0 10px #719ECE;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 80%;
+    padding: 20px;
+  }
+
+  .form-group {
+    width: 90%;
+    margin-right: 5px;
+  }
+}
+
+td {
+  vertical-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+td.textcolumn {
+  min-width: 100px;
+  max-width: 200px;
+}
+
+td.datecolumn {
+  width: auto;
+  white-space: nowrap;
+}
+
+th {
+  vertical-align: center;
+  border: 3px solid black;
+  text-align: center;
+  font-weight: bold;
+  background-color: yellow;
+  font-size: large;
+  padding: 7px;
+}
+
+table.download {
+  border-collapse: collapse;
+  background-color: transparent;
+  padding: 4px;
+  border: 0px;
+  position:relative;
+  float: left;
+  width: auto;
+}
+
+.firstcharacter {
+    color: #903;
+    font-family: Georgia;
+    font-size: 60px;
+    line-height: 55px;
+    padding-top: 4px;
+}
+
+select {
+  width: 250px;
+  margin: 10px;
+}
+
+.download-form {
+  width: 750px;
+  margin-left: 20px;
+}
