@@ -33,6 +33,7 @@ RSVP is provided as a set of PHP scripts that can be uploaded to a folder on an 
    - The name of the database server (usually "localhost")
    - The name of the database user you created above
    - The password for the database user you created above
+   - Your timezone in appropriate format
 
 That is all that is needed. On first run, RSVP will create the necessary database tables and the folder for the images.
 
