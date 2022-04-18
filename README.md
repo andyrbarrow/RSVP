@@ -8,21 +8,21 @@ The process for of personnel on a finish boat typically goes like this:
 1. On the water information such as finish order/times is recorder on paper.
 2. A photograph is taken with a mobile phone
 3. The information is sent via WhatsApp to an individual or group
-4. Scorers onshore print the images (calle "Raw Scores" as they have not been validated by anyone other than finish personnel)
-5. Printed sheets are taken to a physical online bulletine board where they are displayed for view by coaches and competitors.
+4. Scorers onshore print the images (called "Raw Scores" as they have not been validated by anyone other than finish personnel)
+5. Printed sheets are taken to a physical bulletin board where they are displayed for view by coaches and competitors.
 6. Information is used to manually update scoring
 7. Final scoring results are published either on web sites, on paper, or both.
 
 The process is usually repeated every race day for each event and class.
 
-Other information is also exchanged via image, such as boats that are UFD and BFD, protests that have been communicated to the Race Committee, etc. This information is also typically printed onshore and posted on the bulletin board.
+Other information is also exchanged via image, such as boats that are UFD and BFD, protests that have been communicated to the Race Committee, etc. This information is also typically printed onshore and posted on the bulletin board. It is also used by scorers.
 
 As more pressure is placed on racing events to reduce usage of paper and reduce turn-around time for display of images, processes for uploading images to a central server have been used. These typically require the scorer or event secretary to download images from WhatsApp and send them to a server via FTP, renaming the images so that they are somewhat descriptive of what they are.
 
-RSVP is intended to allow personnel offshore to directly upload images to a server, including Event, Class, Date/Time. This removes the scorer or event secretary from the workflow in origination of images for online display.
+RSVP is intended to allow personnel offshore to directly upload images to a server, including Event, Class, Date/Time, and a description. This removes the scorer or event secretary from the workflow in origination of images for online display.
 
 **What is needed to make RSVP Work**
-RSVP is provided as a set of PHP scripts that can be uploaed to a folder on an existing web hosting service with an existing website. The hosting service must also provide PHP (version higher than 7.30) and MySQL (MyriadB is also fine). Setup steps are:
+RSVP is provided as a set of PHP scripts that can be uploaded to a folder on an existing web hosting service with an existing website. The hosting service must also provide PHP (version higher than 7.30) and MySQL (MyriadB is also fine). Setup steps are:
 
 1. Select a folder on the web server, or create a new one.
 2. Copy all the PHP files to the folder
@@ -51,5 +51,5 @@ It is not necessary to log in to view or download images. From the login screen,
 **Permalinks**
 If you wish to keep a particular download query (a particular event and/or particular class) you can make those selections from the dropdown menus and click the "Permalink" link. Your browser will be taken to a specific query, which can be copied and used again to choose those specific selections.
   
-Probems or issues
-Should you have any problems, issues, or suggestions for RSVP, you may contact me at andy@sailor.nu
+**Probems or issues**
+Should you have any problems, issues, or suggestions for RSVP, you may contact me at andy@sailor.nu. An example of RSVP can be seen at http://www.sailor.nu/scorefiles/
