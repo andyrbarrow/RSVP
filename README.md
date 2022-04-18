@@ -30,9 +30,9 @@ RSVP is provided as a set of PHP scripts that can be uploaded to a folder on an 
 4. Create a database user with appropriate rights for creation of tables, data, etc. (if you are unsure, just give the user all rights to that database)
 5. Edit "config.php" with the following information:
 - Name of the subfolder for storage of images and image thumbnails (if you don't care, "uploads/" is fine)
-* The name of the database server (usually "localhost")
-* The name of the database user you created above
-* The password for the database user you created above
+- The name of the database server (usually "localhost")
+- The name of the database user you created above
+- The password for the database user you created above
 
 That is all that is needed. On first run, RSVP will create the necessary database tables and the folder for the images.
 
