@@ -37,7 +37,7 @@ RSVP is provided as a set of PHP scripts that can be uploaded to a folder on an 
 That is all that is needed. On first run, RSVP will create the necessary database tables and the folder for the images.
 
 **Running RSVP for the first time**
-Go to http://<website root>/<RSVP folder>. If all goes well, you will be presented with a login screen. Initially, RSVP starts with a login ID of "Admin" and a password of "Admin". There are three authority levels for RSVP, Administrator, Uploader, and Viewer. It is strongly advised that the first step be to change the administrator password.
+Go to http://\<website root\>/\<RSVP folder\>. If all goes well, you will be presented with a login screen. Initially, RSVP starts with a login ID of "Admin" and a password of "Admin". There are three authority levels for RSVP, Administrator, Uploader, and Viewer. It is strongly advised that the first step be to change the administrator password.
   1. Only Administrators can create other Administrators and Uploaders. They can also delete images.
   2. Uploaders are allowed to upload images. Then cannot delete images.
   3. Viewers can only view/download images.
