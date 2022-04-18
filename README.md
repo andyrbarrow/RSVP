@@ -29,7 +29,7 @@ RSVP is provided as a set of PHP scripts that can be uploaded to a folder on an 
 3. Create a new database. Just database name is sufficient - RSVP will create the necessary tables
 4. Create a database user with appropriate rights for creation of tables, data, etc. (if you are unsure, just give the user all rights to that database)
 5. Edit "config.php" with the following information:
-* Name of the subfolder for storage of images and image thumbnails (if you don't care, "uploads/" is fine)
+- Name of the subfolder for storage of images and image thumbnails (if you don't care, "uploads/" is fine)
 * The name of the database server (usually "localhost")
 * The name of the database user you created above
 * The password for the database user you created above
@@ -39,8 +39,9 @@ That is all that is needed. On first run, RSVP will create the necessary databas
 **Running RSVP for the first time**
 Go to http://\<website root\>/\<RSVP folder\>. If all goes well, you will be presented with a login screen. Initially, RSVP starts with a login ID of "Admin" and a password of "Admin". There are three authority levels for RSVP, Administrator, Uploader, and Viewer. It is strongly advised that the first step be to change the administrator password.
   1. Only Administrators can create other Administrators and Uploaders. They can also delete images.
-  2. Uploaders are allowed to upload images. Then cannot delete images.
+  2. Uploaders are allowed to upload images. They cannot delete images.
   3. Viewers can only view/download images.
+  (Note: If someone comes across the initial login screen, they will be given the opportunity to register. While information like name, phone number, email address, etc. are collected, they will only be given the rights to view and download images. This feature was added for future enhancements.)
   
 **Uploading Images**
 Images can be uplodated from the Upload screen. Enter the name of the event, the class, a description of the image, change the date and time if necessary, and select the image to upload. If the name of the event and/or the class has been previously entered, it can be selected from the drop-down menu. When accessed from a mobile device, one of the options upon browsing for files is the ability to take a photo. This works on both Android and IOS (Apple) devices. Once the image is selected, or the photo is taken, click SUBMIT and the image will be uploaded to the server.
