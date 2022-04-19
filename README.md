@@ -38,7 +38,7 @@ RSVP is provided as a set of PHP scripts that can be uploaded to a folder on an 
 That is all that is needed. On first run, RSVP will create the necessary database tables and the folder for the images.
 
 **Running RSVP for the first time**
-Go to http://\<website root\>/\<RSVP folder\>. If all goes well, you will be presented with a login screen. Initially, RSVP starts with a login ID of "Admin" and a password of "Admin". There are three authority levels for RSVP: Administrator, Uploader, and Viewer. It is strongly advised that the first step be to change the administrator password.
+Go to http(s)://\<website root\>/\<RSVP folder\>. If all goes well, you will be presented with a login screen. Initially, RSVP starts with a login ID of "Admin" and a password of "Admin". There are three authority levels for RSVP: Administrator, Uploader, and Viewer. It is strongly advised that the first step be to change the administrator password.
   1. Only Administrators can create other Administrators and Uploaders. They can also delete images.
   2. Uploaders are allowed to upload images. They cannot delete images.
   3. Viewers can only view/download images.
@@ -48,7 +48,7 @@ Go to http://\<website root\>/\<RSVP folder\>. If all goes well, you will be pre
 Images can be uplodated from the Upload screen. Enter the name of the event, the class, a description of the image, change the date and time if necessary, and select the image to upload. If the name of the event and/or the class has been previously entered, it can be selected from the drop-down menu. When accessed from a mobile device, one of the options upon browsing for files is the ability to take a photo. This works on both Android and IOS (Apple) devices. Once the image is selected, or the photo is taken, click SUBMIT and the image will be uploaded to the server.
 
 **Viewing or Downloading**
-It is not necessary to log in to view or download images. From the login screen, just select the link to view ("Just want to view raw score images? You don't need to sign in. Click Here"). If you are in the Upload screen there is also a link at the bottom to view. You can choose event and class from the dropdown screen. 
+It is not necessary to log in to view or download images. From the login screen, just select the link to view ("Just want to view raw score images? You don't need to sign in. Click Here"). You may also go directly to viewing images by going to http(s)://\<website root\>/\<RSVP folder\>/downloads.php. If you are in the Upload screen there is also a link at the bottom to view. You can choose event and class from the dropdown screen. 
 
 **Permalinks**
 If you wish to keep a particular download query (a particular event and/or particular class) you can make those selections from the dropdown menus, submit the query, and click the "Permalink" link. Your browser will be taken to a specific query, which can be copied and used again to choose those specific selections.
