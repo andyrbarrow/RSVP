@@ -7,7 +7,7 @@ Typically, in sailing events with a lot of on-the-water activity by the race com
 The process for of personnel on a finish boat typically goes like this:
 1. On the water information such as finish order/times is recorder on paper.
 2. A photograph is taken with a mobile phone
-3. The information is sent via WhatsApp to an individual or group
+3. The image is sent via WhatsApp to an individual or group
 4. Scorers onshore print the images (called "Raw Scores" as they have not been validated by anyone other than finish personnel)
 5. Printed sheets are taken to a physical bulletin board where they are displayed for view by coaches and competitors.
 6. Information is used to manually update scoring
